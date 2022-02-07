@@ -14,7 +14,7 @@
   This is a weather-dashboard in which you can search for a weather current condition and also will receive a 5 days forecast. All your searches will be temporarily stored in the local storage. It does display the temperature, the date, the humidity, the wind speed, and the UV index with a color that indicates whether the conditions are favorable, moderate, or severe.To make this application I used HTML, CSS, Javascript, Axios, bootstrap. and had to register and account at openweather to obtain the key for the API.
   <a name='usage'></a>
   ## Usage
-  Type the desired location and either click on the button search or hit the enter key on your keyboard to start the weather search.
+  Type the desired location by either clicking on the button search or hitting the enter key on your keyboard to start the weather search.
  
   <a name='scrs'></a>
   ## Screenshots<br>
