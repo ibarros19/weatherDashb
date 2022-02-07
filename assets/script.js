@@ -1,4 +1,3 @@
-let place = '';
 const apiKey = '&appid=e27ff4075c1646a3a72ff79f2e4b1c2a';
 const apiURL = 'https://api.openweathermap.org/';
 const siteURL = 'https://openweathermap.org/';
@@ -23,7 +22,7 @@ function searchForAPlace() {
         .then(res => {
             saveSearch(place);
             liveCondition(res.data);
-            showFiveForecast(res.data);
+            showFiveForecast(place);
         });
 }
 
@@ -35,7 +34,7 @@ function saveSearch (city) {
         axios.get(`${apiURL}/data/2.5/weather?q=${city}${apiKey}`)
             .then(res => {
                 liveCondition(res.data);
-                showFiveForecast(res.data);
+                showFiveForecast(city);
             });
     })
     $yourSearches.appendChild(li)
@@ -75,7 +74,7 @@ function liveCondition(response) {
         })
 }
 
-function showFiveForecast() {
+function showFiveForecast(place) {
     axios.get(`${apiURL}/data/2.5/forecast?q=${place}&units=imperial${apiKey}`)
         .then(res => {
             $forecast.innerHTML = ''
