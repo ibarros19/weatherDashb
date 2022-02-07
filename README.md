@@ -5,7 +5,6 @@
   
   * [Description](#description)
   * [Usage](#usage)
-  * [License](#license)
   * [Screenshots](#scrs)
   * [Questions](#questions)
   
