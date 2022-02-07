@@ -21,7 +21,7 @@
   <br><img src="assets/img/Screenshot1.png" target="blank" width=400px>
 <br><img src="assets/img/Screenshot2.png" target="blank" width=400px>
 <br>
-    ## Link to the live site<br>
+## Link to the live site<br>
     https://ibarros19.github.io/weatherDashb/
   <a name='questions'></a>
   ## Questions
