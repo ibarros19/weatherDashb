@@ -17,11 +17,18 @@
   Type the desired location by either clicking on the button search or hitting the enter key on your keyboard to start the weather search.
  
   <a name='scrs'></a>
-  ## Screenshots<br>
-  <br><img src="assets/img/Screenshot1.png" target="blank" width=400px>
-<br><img src="assets/img/Screenshot2.png" target="blank" width=400px>
+## Screenshots<br>
+<table>
+    <tr>
+    <td><img src="assets/img/Screenshot1.png" target="blank" width=400px></td>
+  <tr>
+    <td><img src="assets/img/Screenshot2.png" target="blank" width=400px></td>
+  </tr>
+</table>
 <br>
 <a name='live'></a>
+
+
 ## Link to the live site<br>
 <a target="_blank" href="https://ibarros19.github.io/weatherDashb/">
   https://ibarros19.github.io/weatherDashb/
