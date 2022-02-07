@@ -6,6 +6,7 @@
   * [Description](#description)
   * [Usage](#usage)
   * [Screenshots](#scrs)
+  * [Link to the live site](#live)
   * [Questions](#questions)
   
   <a name='description'></a>
@@ -20,8 +21,9 @@
   <br><img src="assets/img/Screenshot1.png" target="blank" width=400px>
 <br><img src="assets/img/Screenshot2.png" target="blank" width=400px>
 <br>
+<a name='live'></a>
 ## Link to the live site<br>
-    https://ibarros19.github.io/weatherDashb/
+<a href="https://ibarros19.github.io/weatherDashb/">https://ibarros19.github.io/weatherDashb/</a>
   <a name='questions'></a>
   ## Questions
   If you have any further questions, please feel free to contact me on GitHub at [ivibarros19](https://github.com/ivibarros19) or by email at [ivibarros19@gmail.com](ivibarros19@gmail.com).
