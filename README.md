@@ -5,10 +5,8 @@
   
   * [Description](#description)
   * [Usage](#usage)
-  * [Installation](#install)
-  * [Test](#test)
   * [License](#license)
-  * [How to contribute](#contribution)
+  * [Screenshots](#scrs)
   * [Questions](#questions)
   
   <a name='description'></a>
@@ -18,12 +16,13 @@
   ## Usage
   Type the desired location and either click on the button search or hit the enter key on your keyboard to start the weather search.
  
-  <a name='contribution'></a>
+  <a name='scrs'></a>
   ## Screenshots<br>
   <br><img src="assets/img/Screenshot1.png" target="blank" width=400px>
 <br><img src="assets/img/Screenshot2.png" target="blank" width=400px>
 <br>
-  
+    ## Link to the live site<br>
+    https://ibarros19.github.io/weatherDashb/
   <a name='questions'></a>
   ## Questions
   If you have any further questions, please feel free to contact me on GitHub at [ivibarros19](https://github.com/ivibarros19) or by email at [ivibarros19@gmail.com](ivibarros19@gmail.com).
