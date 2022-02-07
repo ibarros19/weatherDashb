@@ -1,0 +1,135 @@
+body {
+    /* background-image: url(./images/background.jpg); */
+    background-size: cover;
+    color: #272727;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    background-color: rgb(37, 27, 155);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+li.list-item {
+    cursor: pointer;
+}
+
+.uv-favorable {
+    border: 1 px solid #1f1f1f;
+    border-radius: 16px;
+    background-color: lightgreen;
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+}
+
+#city-box {
+    border: 1px solid #1f1f1f;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uv-ok {
+    border: 1 px solid #1f1f1f;
+    border-radius: 16px;
+    background-color: yellow;
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+}
+
+.uv-severe {
+    border: 1 px solid #1f1f1f;
+    border-radius: 16px;
+    background-color: tomato;
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+}
+
+.forecast-img {
+    min-height: 5px;
+}
+
+#today {
+    background-color: rgb(255, 255, 255);
+}
+
+.searchBar {
+    padding: 10px;
+    text-align: center;
+    /* width: 600px; */
+    /* height: 100%; */
+}
+
+.div-search {
+    min-height: 22px;
+}
+
+.text-box {
+    height: 35px;
+    font-weight: bolder;
+    width: 10px;
+}
+
+.list-item {
+    background-color: white;
+    color: #e43d0a;
+    font-weight: bolder;
+}
+
+.search-card {
+    background-color: rgba(247, 242, 193);
+    min-height: 12rem;
+
+}
+
+.div-today {
+    min-height: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.div-forecast {
+    padding: 5px;
+    justify-content: center;
+
+}
+
+/* .forecast-card {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+.bg-gray {
+    background-color: #ddd;
+}
+.fore1 {
+    /* width: 50%; */
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 32px
+    }
+}

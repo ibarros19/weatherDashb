@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forecast</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+
+    <!-- APP STYLES -->
+    <link rel='stylesheet' href='assets/style.css'>
+</head>
+<body class="container p-3">
+    <header class='container-fluid text-center mb-4'>
+        <h1>Weather Dashboard &#127782</h1>
+        <h3>Type the place to see the weather forecast</h3>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="searchBar">
+                    <h5>Search for a place:</h5>
+                    <div class="input-group mb-3">
+                        <input id="placeSearch" onkeydown="searchOnEnter(event)" class="form-control input-group-append text-box" type="text">
+                        <button id="searchButton" onclick="searchForAPlace()" type="button" class="btn btn-danger">Search</button>
+                    </div>
+                    <div class="searchBar">
+                        <h5>Your Searches:</h5>
+                        <ul id="yourSearches" class="list-group list-group-flush list"></ul>
+                    </div>
+                    <div class='col-sm-7 ml-sm-auto mr-sm-auto div-today'>
+                        <div class="mt-4" id="today"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="fore1">
+                    <div class="mt-4 ml-sm-auto mr-sm-auto col-sm-10">
+                        <h5 class="mt-3" id="5dforecast">5 Days Forecast:</h5>
+                        <div class="row div-forecast" id="forecast"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- APP -->
+    <script src='assets/script.js'></script>
+    <span style="background-color: blue;"></span>
+
+</body>
+
+</html>
