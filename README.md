@@ -24,6 +24,5 @@
 <a name='live'></a>
 ## Link to the live site<br>
 <a href="https://ibarros19.github.io/weatherDashb/" target="_blank">https://ibarros19.github.io/weatherDashb/</a>
-  <a name='questions'></a>
   ## Questions
   If you have any further questions, please feel free to contact me on GitHub at [ivibarros19](https://github.com/ivibarros19) or by email at [ivibarros19@gmail.com](ivibarros19@gmail.com).
